@@ -2,7 +2,13 @@
 PACKAGES <- c(
   "dplyr",
   "purrr",
-  "readxl"
+  "readxl",
+  "readr",
+  "reticulate"
 )
 
 install.packages(PACKAGES)
+
+library(reticulate)
+
+reticulate::py_install(c("beautifulsoup4"))
