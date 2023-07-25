@@ -11,4 +11,4 @@ install.packages(PACKAGES)
 
 library(reticulate)
 
-reticulate::py_install(c("beautifulsoup4"))
+reticulate::py_install(c("beautifulsoup4", "requests"))
