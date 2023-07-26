@@ -41,3 +41,14 @@ if __name__ == "__main__":
         print(f"\nResults have been saved to '{output_file}'.")
     else:
         print("Failed to fetch headings and/or paragraphs.")
+
+
+# What can you do with this information?
+
+# 1. Run it from PC command line - ex: meat
+
+# 2. Drop it in slack/discord/etc
+# https://keestalkstech.com/2019/10/simple-python-code-to-send-message-to-slack-channel-without-packages/
+
+# 3. Create a telegram bot
+# https://technistema.com/posts/using-github-action-python-telegram-meat/
